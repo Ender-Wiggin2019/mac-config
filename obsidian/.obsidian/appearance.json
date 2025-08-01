@@ -1,0 +1,9 @@
+{
+  "cssTheme": "Border",
+  "interfaceFontFamily": "Geist",
+  "monospaceFontFamily": "0xProto Nerd Font Mono",
+  "textFontFamily": "Geist,LXGW WenKai",
+  "enabledCssSnippets": [
+    "drag"
+  ]
+}

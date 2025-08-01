@@ -1,0 +1,52 @@
+# 字体设置
+font-family = 0xProto Nerd Font Mono
+font-size = 12
+
+# 主题和样式
+theme = Dracula
+adjust-cell-height = 35%
+
+
+# 鼠标相关
+# mouse-hide-while-typing = true
+mouse-scroll-multiplier = 2
+
+# macOS 特定
+# macos-titlebar-style = hidden
+# macos-titlebar-style = tabs
+macos-titlebar-proxy-icon = hidden
+
+# 窗口设置
+window-theme = auto
+# 下面这个属性对于 Mac 没用
+window-titlebar-background = 25273A
+window-padding-balance = true
+# window-padding-color = "background"
+window-save-state = default
+window-colorspace = "display-p3"
+title = " "
+window-padding-x = 12
+window-padding-y = 8
+window-padding-balance = true
+window-width = 75
+window-height = 20
+
+# Cursor
+cursor-color = FF92D1
+# shell integration 会覆盖 cursor 配置
+shell-integration-features = no-cursor
+cursor-style = block
+cursor-style-blink = true
+# option+click 移动光标，需要 shell integration
+cursor-click-to-move = true
+
+# 背景设置
+background = 25273A
+background-opacity = 0.95
+background-blur-radius = 25
+
+# Icon
+macos-icon = custom-style
+macos-icon-frame = plastic
+macos-icon-ghost-color = 25273A
+# macos-icon-screen-color = 25273A

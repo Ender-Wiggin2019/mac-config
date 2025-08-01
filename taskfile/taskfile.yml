@@ -1,0 +1,14 @@
+version: '3'
+
+tasks:
+  # 通用命令
+  kill:
+    cmds:
+      - lsof -t -i :{{.PORT}} | xargs kill
+    vars:
+      PORT: '{{.PORT}}'
+
+  wsl:
+    cmds:
+        - w2 proxy off && w2 restart -p 8899 -H 127.0.0.1
+    silent: true
